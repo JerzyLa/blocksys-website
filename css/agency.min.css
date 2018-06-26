@@ -4,13 +4,13 @@
 }
 
 #mainNav .navbar-toggler{
- 	font-size:12px;
- 	right:0;padding:
- 	13px;
+ 	right:0;
+ 	padding:20px 15px;
+ 	margin:12px 0px;
  	text-transform:uppercase;
  	border:0;
- 	background-color:#f5593d;
- 	font-family:Montserrat,'Helvetica Neue',Helvetica,Arial,sans-serif
+ 	opacity: 0.9;
+ 	color: white;
  }
 
  #mainNav .navbar-brand.active,#mainNav .navbar-brand:active,#mainNav .navbar-brand:focus,#mainNav .navbar-brand:hover{color:#f5593d}
@@ -39,15 +39,6 @@
  		background-color:transparent
  	}
  
- 	#mainNav .navbar-brand{
- 		font-size:1.25em;
- 		opacity: 0.8;
- 		color: white;
- 		-webkit-transition:all .3s;
- 		-moz-transition:all .3s;
- 		transition:all .3s
- 	}
- 
  	#mainNav .navbar-nav .nav-item .nav-link{
  		padding:1.1em 1em!important;
  	}
@@ -64,6 +55,15 @@
  	}
 }
 
+#mainNav .navbar-brand{
+	font-size:1.25em;
+	opacity: 0.9;
+	color: white;
+	-webkit-transition:all .3s;
+	-moz-transition:all .3s;
+	transition:all .3s
+}
+
 #mainNav {
 	-webkit-box-shadow: none;
 	-moz-box-shadow: none;
@@ -73,4 +73,9 @@
 .info {
 	padding-top: 30px;
 	padding-bottom: 30px;
+}
+
+.navbar .navbar-toggler .navbar-toggler-bar {
+	background-color: white;
+	opacity: 0.9;
 }
